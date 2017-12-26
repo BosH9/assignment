@@ -8,7 +8,8 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { CountyProvider } from '../providers/county/county';
-import {DetailsPageModule} from '../pages/details/details.module'
+import {DetailsPageModule} from '../pages/details/details.module';
+import {UiComponents1Page} from '../pages/ui-components1/ui-components1';
 
 
 @NgModule({
@@ -16,7 +17,7 @@ import {DetailsPageModule} from '../pages/details/details.module'
     MyApp,
     HomePage,
     LoginPage,
-    
+    UiComponents1Page
   ],
   imports: [
     BrowserModule,
@@ -26,7 +27,8 @@ import {DetailsPageModule} from '../pages/details/details.module'
   entryComponents: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    UiComponents1Page
   ],
   providers: [
     StatusBar,

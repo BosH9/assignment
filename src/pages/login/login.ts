@@ -67,6 +67,10 @@ export class LoginPage {
     }
   }
 
+  gotoPage1(){
+    this.navCtrl.push('UiComponents1Page');
+  }
+
   presentToast() {
     let toast = this.toastCtrl.create({
       message: 'LoggedIn successfully',
